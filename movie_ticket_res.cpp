@@ -171,6 +171,7 @@ bool occupied(vll v){
 }
 
 void suggest_cont(vs str){
+    
     ll v_len = v.size(),index = 0;
     bool flag = false;
     FOR(i,0,v_len){
